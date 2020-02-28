@@ -1,0 +1,306 @@
+*{
+	margin:0; 
+	padding:0; 
+	box-sizing: border-box;
+}
+body{
+	/*background-image: url(../images/body.jpg);
+	height: 100vh;*/
+}
+.navbar{
+	background: #000 !important;
+
+}
+.navbar .navbar-brand{
+	font-family: cursive;
+	font-size: 28px;
+	font-weight:bold;
+	color: #ffff33;
+	transition: 0.6s;
+}
+.navbar-nav a{
+	color: #fff;
+	font-size: 20px;
+	margin-right: 38px;
+	padding-bottom: 0px;
+}
+
+.navbar-brand:hover{
+	box-shadow: 0px 0px 7px 4px green;
+	color: #f72b0b;
+	margin: 5px 5px;
+	padding: 5px 5px;
+}
+
+.navbar .nav-link:hover{
+	color: green;
+}
+
+.nav-item  .dropdown-menu{
+	display: none;
+}
+.nav-item:hover .dropdown-menu{
+	display: block;
+}
+.carousel-caption{
+	height:fit-content;
+	width: fit-content;
+	text-align: left;
+}
+.carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+
+
+.products-heading{
+	margin: 48px auto;
+	margin-bottom: 0px;
+ 	border-radius: 5px;
+ 	padding:10px 20px;
+ 	text-align: center;
+}
+.products-heading h2{
+	font-weight: bold;
+	text-align: center;
+}
+.offer .offer-img{
+	max-width: 100%;
+	height:100%;
+	margin:0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.offer .offer-img img{
+	transition: 0.9s;
+}
+
+.offer-text{
+	width: 300px;
+	height: 300px;
+	padding:5px;
+	text-align: center;
+	position: absolute;
+	top: 50px;
+}
+.offer-banner .row{
+	border:1px solid #ddd;
+}
+
+.offer h2{
+	transition: 0.6s;
+}
+
+.offer:hover img{
+	transform: scale(1.3);
+}
+.offer:hover h2{
+	transform: scale(1.2);
+	color:red;
+	text-shadow: 4px 0px 6px #16ff16eb;
+}
+
+.offer h3{
+	transition: 0.8s;
+}
+.offer:hover h3{
+	padding-left:10px;
+}
+
+
+.offer h4{
+	transition: 0.6s;
+}
+.offer:hover h4{
+	padding-right: 10px;
+}
+
+.product{
+  max-width: 100%;
+  height: fit-content;
+  margin: 0px auto;
+  margin-bottom: 5px;
+}
+
+.cat{
+  max-width: 100%;
+  height: 310px;
+  margin: 10px auto 10px auto;
+}
+.cat-2{
+  max-width: 100%;
+  height: 460px;
+  margin: 10px auto 10px auto;
+}
+
+.product .product-img img{
+  width: 100%;
+  height: 300px;
+  transition: 0.6s;
+}
+
+.cat .product-img img{
+  width: 100%;
+  height: 300px;
+  transition: 0.6s;
+}
+
+.cat-2 .product-img img{
+  width: 100%;
+  height: 450px;
+  transition: 0.6s;
+}
+
+.product-img{
+	overflow: hidden;
+	position: relative;
+}
+
+.product .product-img .view{
+  width: fit-content;
+  height: fit-content;
+  font: 26px bold;
+  position: absolute;
+  left:0;
+  top:0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: none;
+}
+
+.categories .product-img .view{
+  width: fit-content;
+  height: fit-content;
+  font-family: cursive;
+  font: 18px bold;  
+  background: #f8694a;
+  color: #fff;  
+  position: absolute;
+  left:0;
+  right: 0;
+  bottom: 10px;
+  margin: auto;
+  padding: 10px 18px;
+  border-radius: 24px;
+  display: block;
+}
+.categories .view:hover{
+	background: black;
+	color: white;
+}
+.product-img:hover .view{
+	display: block;
+}
+
+
+h4 .price{
+  font-size: 20px;
+  float: right;
+  padding-right: 10px;
+}
+
+h4 .old-price{
+  font-size: 16px;
+  color:red;
+}
+
+.product-img:hover img{
+ transform: scale(1.1);
+ opacity: 0.3;
+}
+
+button{
+	font-size: 18px;
+	border: none;
+	padding:5px 10px;
+}
+
+
+.product button:hover{
+	box-shadow: 0px 0px 7px 4px #f72b0b;
+	color: #f72b0b;
+}
+
+
+.items{
+	max-width: 100%;
+	height: 300px;
+	margin:0 auto;
+	position: relative;
+
+}
+
+
+footer{
+	background: #000;
+	color:#fff;
+	text-align:left;
+}
+.social-media i{
+	padding:5px 10px;
+	border-radius: 5px;
+	width: fit-content;
+	height: fit-content;
+	margin-right: 34px;
+	transition: 0.5s;
+}
+.social-media .facebook{
+	font-size: 28px;
+}
+.social-media .os{
+	font-size: 36px;
+}
+.social-media i:hover{
+	color: white;
+	transform: scale(1.5);
+}
+footer a{
+	display:block;
+	text-decoration: none;
+	color:#fff;
+	text-transform: capitalize;
+}
+
+footer .cat-f a:hover{
+	text-decoration: none;
+	color: #f53308;
+}
+
+
+footer .copyright{
+	text-align: center;
+	border-top: 2px solid #ddd;
+	padding-bottom: 5px;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .navbar .navbar-brand{font-size: 25px;}
+  .carousel-caption{
+	    bottom: 5px;
+	    padding-top: 5px;
+	    padding-bottom: 30px;
+	}
+  .carousel-caption h4{
+  	font-size: 16px;
+  }
+  .carousel-caption h2{
+  	font-size: 18px;
+  	width: 85%;
+  	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .carousel-caption p{
+  	display: none;
+  }
+
+
+
+}
+
+
+
