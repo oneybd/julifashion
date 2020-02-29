@@ -278,7 +278,7 @@ footer .copyright{
 
 
 @media screen and (max-width: 500px) {
-  .navbar .navbar-brand{font-size: 25px;}
+  .navbar .navbar-brand{font-size: 20px;}
   .carousel-caption{
 	    bottom: 5px;
 	    padding-top: 5px;
